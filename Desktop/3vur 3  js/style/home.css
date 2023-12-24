@@ -1,0 +1,29 @@
+.contener {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contener .item {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  width: 33%;
+  margin-bottom: 20px;
+}
+
+.contener .item .img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contener .item .tittle {
+  font-weight: bold;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=home.css.map */

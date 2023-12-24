@@ -1,0 +1,24 @@
+.contener {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+  
+    .item {
+      
+            display: grid;
+            justify-items: center;
+      width: 33%; 
+      margin-bottom: 20px;          
+  
+      .img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .tittle {
+        font-weight: bold;
+        margin-top: 5px; 
+      }
+  
+    }
+  }
